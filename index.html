@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Portfolio</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: system-ui, sans-serif; }
+        body { background-color: #0f172a; color: #f8fafc; line-height: 1.6; padding: 40px 20px; display: flex; justify-content: center; }
+        .container { width: 100%; max-width: 700px; }
+        .header { text-align: center; margin-bottom: 40px; padding-bottom: 24px; border-bottom: 1px solid #334155; }
+        .header h1 { font-size: 2.2rem; margin-bottom: 6px; }
+        .header h2 { font-size: 1.15rem; color: #38bdf8; margin-bottom: 4px; }
+        .header h3 { font-size: 1rem; color: #94a3b8; }
+        .projects-container { display: flex; flex-direction: column; gap: 20px; }
+        .project-card { background-color: #1e293b; border: 1px solid #334155; border-radius: 12px; padding: 24px; }
+        .project-title { font-size: 1.25rem; margin-bottom: 10px; }
+        .project-description { color: #cbd5e1; font-size: 0.95rem; margin-bottom: 18px; }
+        .project-link { color: #38bdf8; text-decoration: none; font-weight: 600; }
+        .project-link:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <!-- HEADER SECTION -->
+        <header class="header">
+            <!-- 1. CHANGE THIS: PUT YOUR REAL NAME BELOW -->
+            <h1>Aditya Kumar</h1>
+            
+            <h2>Department of Humanities and Social Sciences</h2>
+            <h3>Indian Institute of Technology (Indian School of Mines), Dhanbad</h3>
+        </header>
+
+        <!-- PROJECTS SECTION -->
+        <main class="projects-container">
+
+            <!-- ==================== PROJECT 1 ==================== -->
+            <div class="project-card">
+                <h2 class="project-title">Project 1: Network Analysis</h2>
+                <p class="project-description">
+                    <strong>Description:</strong> 
+                    <!-- 2. CHANGE THIS: WRITE YOUR DESCRIPTION FOR PROJECT 1 BELOW -->
+                    To visualize and analyze the network of national highways passing through the Seven Sister States of India, showing the connection between each state and the highways traversing it.
+
+                </p>
+                <!-- 3. CHANGE THIS: REPLACE https://example.com WITH YOUR REAL PROJECT 1 LINK BELOW -->
+                <a href="https://adityakumar190.github.io/network-assignment/" class="project-link" target="_blank" rel="noopener">Project Link &rarr;</a>
+            </div>
+
+            <!-- ==================== PROJECT 2 ==================== -->
+            <div class="project-card">
+                <h2 class="project-title">
+                    <!-- 4. CHANGE THIS: TITLE FOR PROJECT 2 -->
+                    Project 2: Mapping Using QGIS
+                </h2>
+                <p class="project-description">
+                    <strong>Description:</strong> 
+                    <!-- 5. CHANGE THIS: DESCRIPTION FOR PROJECT 2 -->
+                    Meteor impacts are among the most significant geological events in Earth's history, leaving behind large-scale surface features known as impact craters. This project presents an interactive Geographic Information System (GIS) atlas that visualizes the global distribution of selected ancient meteor impact craters.
+The project uses GIS techniques to map the geographic locations of 20 major meteor impact structures around the world. Each crater location is represented as a spatial point feature, with crater diameter used to represent the relative size of the impact structure through proportional symbols. The map also includes interactive information panels containing important details such as crater name, country, and reference sources.
+The project was developed using QGIS, an open-source GIS software platform, and further converted into a web-based interactive map to improve accessibility and exploration. Users can interact with the map by selecting individual crater locations to view associated information.
+The aim of this project is to demonstrate how GIS can be used for geological visualization, spatial analysis, and communication of Earth's geological history through an interactive mapping approach.
+
+                </p>
+                <!-- 6. CHANGE THIS: REPLACE WITH YOUR REAL PROJECT 2 LINK -->
+                <a href="https://adityakumar190.github.io/mapping-assignment/" class="project-link" target="_blank" rel="noopener">Project Link &rarr;</a>
+            </div>
+
+            <!-- ==================== PROJECT 3 ==================== -->
+            <div class="project-card">
+                <h2 class="project-title">
+                    <!-- 7. CHANGE THIS: TITLE FOR PROJECT 3 -->
+                    Project 3: Sentiment Analysis
+                </h2>
+                <p class="project-description">
+                    <strong>Description:</strong> 
+                    <!-- 8. CHANGE THIS: DESCRIPTION FOR PROJECT 3 -->
+                    In this project, sentiment analysis is applied to YouTube comments related to two space mission narratives: the story of Laika, the first dog sent into space, and Vladimir Komarov, a Soviet cosmonaut who died during a space mission.
+The study uses two different approaches for sentiment classification: a rule-based method (TextBlob) and a transformer-based model (Twitter-RoBERTa). The objective is to analyze and compare audience reactions across both datasets and methods to understand emotional responses toward human and animal space mission tragedies.
+
+                </p>
+                <!-- 9. CHANGE THIS: REPLACE WITH YOUR REAL PROJECT 3 LINK -->
+                <a href="https://drive.google.com/drive/folders/1Epp2lc4P1SPFCIt0UaWJuvLu3KSi1Mod?usp=drive_link" class="project-link" target="_blank" rel="noopener">Project Link &rarr;</a>
+            </div>
+
+            <!-- ==================== PROJECT 4 ==================== -->
+            <div class="project-card">
+                <h2 class="project-title">
+                    <!-- 10. CHANGE THIS: TITLE FOR PROJECT 4 -->
+                    Project 4: Text Mining
+                </h2>
+                <p class="project-description">
+                    <strong>Description:</strong> 
+                    <!-- 11. CHANGE THIS: DESCRIPTION FOR PROJECT 4 -->
+                    This study utilizes primary source folklore collections from the Project Gutenberg archives, processed through an automated NLP pipeline to extract cultural insights.
+
+                </p>
+                <!-- 12. CHANGE THIS: REPLACE WITH YOUR REAL PROJECT 4 LINK -->
+                <a href="https://docs.google.com/presentation/d/1knKIjpdpjKN7XgWbwoIBwLHzVDCynA2b/edit?usp=drive_link&ouid=110834086744592586136&rtpof=true&sd=true" class="project-link" target="_blank" rel="noopener">Project Link &rarr;</a>
+            </div>
+
+        </main>
+    </div>
+
+</body>
+</html>
